@@ -1,0 +1,258 @@
+.wrapper{
+
+}
+a{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6,ul,li,div,section,header,footer,main,aside,a{
+    margin:0;
+    padding:0;
+
+}
+
+
+.w100{
+    width: 100%;
+}
+.mt-50{
+    margin-top:50px;
+}
+.h100vh{
+    min-height:calc(100vh - 50px);
+}
+.no-pad{
+    padding-left:0;
+    padding-right: 0;
+}
+.loginForm{
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm h1{
+    margin-bottom: 35px;
+}
+.loginForm form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginForm form .form-group{
+    position: relative;
+}
+.loginForm form .form-group span{
+    position: absolute;
+    right:10px;
+    top:13px;
+    cursor: pointer;
+}
+.loginForm form input{
+    margin-bottom: 15px;
+    background: #F6F6F6;
+    height:50px;
+    padding-left: 15px;
+    width:350px;
+    border: 1px solid #E8E8E8;
+    border-radius: 8px;
+}
+.loginForm form input::placeholder{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight:600;
+    color: #BDBDBD;
+}
+
+.loginForm form button, .submit-btn{
+    background-color: #000;
+    padding: 16px 32px;
+    border-radius: 50px;
+    border:0 none;
+    font-weight: 600;
+    font-size: 16px;
+    width:350px;
+}
+.cancel-btn, .cancel-btn:hover{
+    background-color: transparent;
+    color:#000;
+}
+/* Sidebar */
+.SidebarContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SidebarTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.SidebarContainer a{
+    text-decoration:none;
+    color:#000;
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-transform: capitalize;
+padding:15px 25px;
+display: flex;
+align-items: center;
+margin-bottom:10px;
+}
+.SidebarContainer .SidebarBottom a svg path{
+    fill:transparent;
+}
+.SidebarContainer a:hover, .SidebarContainer a.active{
+    background-color:#000;
+    color:#fff;
+    border-radius: 0 50px 50px 0;
+}
+.SidebarContainer a:hover svg path, .SidebarContainer a.active svg path{
+    fill:#fff;
+}
+.SidebarContainer a svg{
+    margin-right: 10px;
+}
+.SidebarContainer a svg path{
+    fill:#000;
+}
+.SidebarBottom{}
+
+/* main-area */
+.main-area{}
+.task-page{}
+.task-page > a{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #575767;
+margin-bottom:20px;
+display: block;
+}
+.task-page h2{
+    font-weight: 700;
+font-size: 18px;
+line-height: 18px;
+color: #575767;
+margin-bottom:10px;
+}
+.task-page ul{
+    padding-left:0;
+}
+.task-page ul li{
+    width:max-content;
+    display: flex;
+    flex-direction: row;
+    margin-bottom:10px;
+    justify-content: space-between;
+}
+.previous-locations ul li{
+    align-items: center;
+}
+.previous-locations ul li img{
+    width:max-content;
+    height:max-content;
+}
+.task-page ul li img{}
+.task-page ul li input{
+    border: 2px solid #DADADA;
+    border-radius: 6px;
+    width:24px;
+    height:24px;
+    -moz-appearance:none;
+-webkit-appearance:none;
+-o-appearance:none;
+margin-right: 10px;
+}
+.task-page ul li h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #575767;
+    margin-bottom:0;
+}
+.task-page ul li p{
+    font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #B9B9BE;
+}
+.incompletedTask{
+    margin-bottom:35px;
+}
+.completedTask ul li{
+    margin-bottom:15px;
+}
+.submit-resume{
+    box-shadow:1px 1px 10px 3px #eee;
+    width:max-content;
+    float:right;
+    border-radius: 10px;
+}
+.resume-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.resume-skip{
+    background: #F7F5F5;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px 10px;
+}
+.resume-skip a{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-right:10px;
+}
+.submit-text{
+    margin-right:10px;
+}
+.submit-text h3{
+    font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #000000;
+margin-bottom: 0;
+}
+.submit-text p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #575767;
+}
+.submit-img img{}
+.ModalHead{
+    font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color:#000;
+}
+form.ModalForm{
+    margin-top:25px;
+}
+form.ModalForm .single-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+form.ModalForm .single-field input, form.ModalForm .single-field textarea{
+    width: 100%;
+    border: 0 none;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 0 0 15px 50px;
+}
+form.ModalForm .single-field img{
+    position: absolute;
+    top:0;
+    
+    left:10px;
+}

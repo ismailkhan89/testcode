@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "TestCode",
+    "slug": "test-code",
+    "version": "0.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.test.codes",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to determine the current location for check in."
+      }
+    },
+    "android": {
+      "package":  "com.test.code",
+      "permissions":["LOCATION","ACCESS_FINE_LOCATION"]
+    }
+  }
+}
